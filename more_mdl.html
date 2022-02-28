@@ -13,4 +13,60 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <title>My Second MDL Webpage</title>
   </head>
+  <body>
+    <!-- Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!--Webpage Header -->
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">My Second MDL Webpage</span>
+        </div>
+      </header>
+      <!-- MDL Progress Bar with Indeterminate Progress -->
+      <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+      <!-- Container for web page content -->
+      <main class="mdl-layout__content" style="padding-left:20px">
+        <!-- List -->
+        <h5>Some of My Favourite Foods:</h5>
+        <ul class="demo-list-item mdl-list">
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Spanakopita
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Butter chicken
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Quiche
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Shawarma
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Pizza
+            </span>
+          </li>
+        </ul>
+        <!-- Radio Button -->
+        <h5>Do you like any of these dishes?</h5>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+          <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+          <span class="mdl-radio__label">Yes</span>
+        </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+          <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+          <span class="mdl-radio__label">No</span>
+        </label>
+      </main>
+    </div>
+  </body>
 </html>
